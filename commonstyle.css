@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+ #container{
+     width: 95%;
+     margin: auto;
+     background-color: #85FFBD;
+     background-color: #8BC6EC;
+     background-color: #85FFBD;
+ }
+ #navbar{
+     width: 100%;
+     height: 50px;
+     display: flex;
+     background-color: rgb(2, 138, 58);
+     justify-content: space-between;
+     align-items: center;
+ }
+ #navbar>div{
+     color: rgb(0, 255, 106);
+     font-size: 18px;
+ }
+ #navigation{
+    height: 100%;
+    width: 68%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+ }
+#navigation>div{
+    cursor: pointer;
+}
+ #logo{
+ height: 100%;
+ width: 30%;
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+ }
+ #logo>h2{
+     background-image: linear-gradient(45deg, yellow, rgb(0, 255, 106));
+     -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+ }
+ a{
+     text-decoration: none;
+     color: rgb(255, 255, 0);
+ }
+ i{
+     color: yellow;
+ }
+ #price{
+     display: flex;
+     justify-content: space-between;
+     width: 90%;
+     margin: auto;
+     margin-top: 10px;
+     padding: 10px;
+ }
+ #product{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     
+ }
+ #product>div{
+     border: 1px solid rgb(190, 181, 181);
+     border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+     margin-top: 20px;
+     background-color: #fff;
+ }
+
+ #product>div>img{
+     border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+ }
+ p{
+     text-decoration: line-through;
+     color: rgb(75, 72, 72);
+ }
+ h3{
+     text-align: center;
+     color: rgb(75, 72, 72);
+     margin-top: 20px;
+ }
+ button{
+     display: block;
+     margin: auto;
+     border: none;
+     background-color: rgb(0, 255, 106);
+     color: white;
+     width: 100%;
+     padding: 10px;
+     font-size: 20px;
+ }
+ button:hover{
+     cursor: pointer;
+     background-color: yellow;
+ }

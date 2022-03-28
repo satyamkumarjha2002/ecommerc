@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            display: flex;
+            flex-direction: column;
+        }
+        input{
+            width: 75px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form action="">
+            <label for="">Enter otp</label>
+            <input type="text" id="otp"/>
+            <input type="submit" id="submited"/>
+        </form>
+       
+    </div>
+   
+</body>
+</html>
+<script>
+  var otp=1234;
+  document.querySelector("#submited").addEventListener("click",clicked)
+  function clicked(){
+      event.preventDefault();
+      var opt_user=document.querySelector("#otp").value;
+      if(otp==opt_user){
+          alert("payment successful");
+          window.location.href="index.html"
+      }else{
+          alert("Enter correct otp")
+      }
+  }
+</script>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+
+        #container {
+            width: 95%;
+            margin: auto;
+        }
+
+        #navbar {
+            width: 100%;
+            height: 50px;
+            display: flex;
+            background-color: rgb(2, 138, 58);
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        #navbar>div {
+            color: rgb(0, 255, 106);
+            font-size: 18px;
+        }
+
+        #navigation {
+            height: 100%;
+            width: 68%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        #navigation>div {
+            cursor: pointer;
+        }
+
+        #logo {
+            height: 100%;
+            width: 30%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        #logo>h2 {
+            background-image: linear-gradient(45deg, yellow, rgb(0, 255, 106));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            -moz-background-clip: text;
+            -moz-text-fill-color: transparent;
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(255, 255, 0);
+        }
+
+        #navigation>:nth-child(1)>a {
+            color: white;
+        }
+
+        i {
+            color: yellow;
+        }
+
+        #product>img {
+            margin-top: 7px;
+            display: block;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div id="navbar">
+            <div id="logo">
+                <h2>SatyaM</h2>
+            </div>
+            <div id="navigation">
+                <div><a href="index.html">Home</a></div>
+                <div><a href="mens.html">Men's</a></div>
+                <div><a href="women.html">Women's</a></div>
+                <div><a href="kids.html">Kid's</a></div>
+                <div><a target="blank" href="login.html">Login/signUp</a></div>
+                <a href="cart.html"><i class="fa-solid fa-cart-arrow-down"></i></a>
+            </div>
+        </div>
+        <div id="product">
+            <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7bb49d2a-8588-41e7-9081-342339bfb37d/ddl95sj-4f2dc038-52f4-4369-8ce2-977c63d427eb.jpg/v1/fill/w_1024,h_284,q_75,strp/men_s_fashion__banner_by_asimcarnage_ddl95sj-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzdiYjQ5ZDJhLTg1ODgtNDFlNy05MDgxLTM0MjMzOWJmYjM3ZFwvZGRsOTVzai00ZjJkYzAzOC01MmY0LTQzNjktOGNlMi05NzdjNjNkNDI3ZWIuanBnIiwiaGVpZ2h0IjoiPD0yODQiLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS53YXRlcm1hcmsiXSwid21rIjp7InBhdGgiOiJcL3dtXC83YmI0OWQyYS04NTg4LTQxZTctOTA4MS0zNDIzMzliZmIzN2RcL2FzaW1jYXJuYWdlLTQucG5nIiwib3BhY2l0eSI6OTUsInByb3BvcnRpb25zIjowLjQ1LCJncmF2aXR5IjoiY2VudGVyIn19.ktKYKsraKd0YmHxi2mHLJfVcWFbkYW687jM82VjT2sU"
+                alt="">
+            <img src="https://i.pinimg.com/originals/61/47/12/614712f5f6f0ea8e80c77e9ed9bc2359.jpg" alt="">
+            <img src="https://img.freepik.com/free-psd/fashion-store-banner-template_23-2148675200.jpg?size=626&ext=jpg"
+                alt="">
+
+        </div>
+</body>
+
+</html>

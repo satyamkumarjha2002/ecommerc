@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="commonstyle.css">
+    <style>
+        #navigation>:nth-child(2)>a {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div id="navbar">
+            <div id="logo">
+                <h2>SatyaM</h2>
+            </div>
+            <div id="navigation">
+                <div><a href="index.html">Home</a></div>
+                <div><a href="mens.html">Men's</a></div>
+                <div><a href="women.html">Women's</a></div>
+                <div><a href="kids.html">Kid's</a></div>
+                <div><a target="blank" href="login.html">Login/signUp</a></div>
+                <a href="cart.html"><i class="fa-solid fa-cart-arrow-down"></i> </a>
+            </div>
+
+        </div>
+        <select name="" id="sort_by_price">
+            <option value="sort">sort by price</option>
+            <option value="high to low">high to low</option>
+            <option value="low to high">low to high</option>
+        </select>
+        <select name="" id="sort_by_name">
+            <option value="">sort by name</option>
+            <option value="A to Z">A to Z</option>
+            <option value="Z to A">Z to A</option>
+        </select>
+        <div id="product">
+
+        </div>
+    </div>
+
+</body>
+
+</html>
+<script src="mens.js"></script>
+<script src="commonlogic.js"></script>
